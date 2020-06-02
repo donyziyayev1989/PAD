@@ -1,0 +1,50 @@
+.doctor__img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.doctor__name{
+	margin-bottom: 10px;
+	font-size: 2.4rem;
+}
+.list-group{
+	list-style-type: none;
+	padding-left: 0;
+	li{
+		padding: 10px;
+		+ li{
+			border-top: 1px solid  $light-grey;
+		}
+	}
+}
+.doctor__price{
+	display: block;
+	
+}
+.doctor__price{
+	background: #f3f3f3;
+	color:$primary;
+	font-size: 1.4rem;
+	&:active{
+		background: darken($danger, 10%) !important;
+	}
+}
+.doctor__short-info, .doctor__name a{
+	transition: all 300ms;
+}
+.doctor{
+	&:hover, &:focus{
+		.doctor__name a{
+			color:$danger;
+		}
+		.doctor__price{
+			background: $danger;
+			color:$white;
+		}
+		.doctor__short-info{
+			color:$primary;
+		}
+	}
+}

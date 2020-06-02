@@ -1,0 +1,73 @@
+/***********************************************************************************/
+/* 								Typography	 style 				*/
+/***********************************************************************************/
+@font-face {
+  font-family: 'DINNextCYR-Light';
+  src: url('../fonts/DINNextCYR-Light.eot');
+  src: url('../fonts/DINNextCYR-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DINNextCYR-Light.svg#DINNextCYR-Light') format('svg'),
+       url('../fonts/DINNextCYR-Light.ttf') format('truetype'),
+       url('../fonts/DINNextCYR-Light.woff') format('woff'),
+       url('../fonts/DINNextCYR-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DINNextCYR-LightItalic';
+  src: url('../fonts/DINNextCYR-LightItalic.eot');
+  src: url('../fonts/DINNextCYR-LightItalic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DINNextCYR-LightItalic.svg#DINNextCYR-LightItalic') format('svg'),
+       url('../fonts/DINNextCYR-LightItalic.ttf') format('truetype'),
+       url('../fonts/DINNextCYR-LightItalic.woff') format('woff'),
+       url('../fonts/DINNextCYR-LightItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINNextCYR-Regular';
+  src: url('../fonts/DINNextCYR-Regular.eot');
+  src: url('../fonts/DINNextCYR-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DINNextCYR-Regular.svg#DINNextCYR-Regular') format('svg'),
+       url('../fonts/DINNextCYR-Regular.ttf') format('truetype'),
+       url('../fonts/DINNextCYR-Regular.woff') format('woff'),
+       url('../fonts/DINNextCYR-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html{
+  font-size: 10px;
+}
+body{
+	font-size: 1.5rem;
+	font-family: $font-light;
+  color:#777;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 1.2;
+  font-family: $font-regular;
+  font-weight: normal;
+  
+}
+strong, b{
+  font-weight: normal;
+
+  font-family: $font-regular
+  
+}
+h3,.h3{
+  font-size: 1.5rem;
+}
+h4, .h5{
+  font-size: 1.4rem;
+}
+h5,.h5{
+  font-size: 1.3rem;
+}
+.text-lg{
+  font-size: 2.4rem;
+  line-height: 1.1;
+}

@@ -1,0 +1,54 @@
+.scrollbar-on-lg{
+	@include minlg {
+		overflow-x: auto;
+	 	flex-wrap: nowrap;
+	 	padding-bottom: 20px;
+	 	.service{
+	 		height: 50%;
+	 	}
+	}
+}
+.services{
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	background-position: top center;
+	background-color: #eee7dc;
+	padding-bottom: 10px;
+}
+
+.service{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	padding-top: 35px;
+	@include maxsm {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+.service__icon{
+	border-radius: 15px;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 12px;
+	max-width: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.service__title{
+	font-size: 2rem;
+}
+.form-question{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 25px;
+	.control-label{
+
+	}
+}

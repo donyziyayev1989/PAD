@@ -1,0 +1,17 @@
+@import 'partials/mixins';
+@import 'partials/variables';
+@import 'partials/reset';
+@import 'partials/grid';
+@import 'partials/typography';
+@import 'partials/ui';
+
+@import 'partials/layout';
+
+
+// pages
+@import 'pages/our-doctors';
+@import 'pages/services';
+@import 'pages/advices';
+@import 'pages/questions';
+@import 'pages/partnership';
+@import 'pages/article';

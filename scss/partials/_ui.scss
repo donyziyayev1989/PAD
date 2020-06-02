@@ -1,0 +1,218 @@
+/********************************************************************************/
+/*								 	General Ui 									*/
+/********************************************************************************/
+
+a,button, input{
+  &, &:focus{
+    outline: none !important;
+  }
+}
+hr{
+  border: none;
+   border-top: 1px solid #d9dadb; 
+}
+.fl-left{
+  float: left;
+  
+}
+.fl-right{
+  float: right;
+  
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.text-center{
+  text-align: center;
+  
+}
+.text-primary{
+  color: $primary;
+}
+.img-full{
+  width: 100%;
+  height: auto;
+}
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+// Buttons
+.btn{
+  padding: 8px 15px;
+  outline: none !important;
+  font-family: $font-light;
+  transition:all 300ms;
+  border-radius: 0;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  
+  &:focus, &:hover, &:active, &:active:focus{
+    outline: none;
+  }
+  +.btn{
+    margin-left: 15px;
+  }
+ 
+}
+.btn-block{
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-sm{
+  font-size: 1.2rem;
+  padding: 6px 15px 6px 10px;
+
+}
+.btn-lg{
+  padding:20px 35px
+  
+}
+
+@include maxxs {
+  .col-xxs-12{
+    width: 100%;
+  }
+}
+.btn-danger{
+  background: $danger;
+  color:$white;
+  &:hover, &:focus{
+    background: darken($danger, 15%);
+    text-decoration: none;
+    color:$white;
+  }
+}
+.btn-primary{
+  background: $primary;
+  color:$white;
+  &:hover, &:focus{
+    background: darken($primary, 15%);
+    text-decoration: none;
+    color:$white;
+  }
+}
+.form-control{
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  background: #f3f3f3;
+  transition: all 300ms;
+  margin-bottom: 10px;
+  font-family: $font-light-italic;
+  &:focus{
+    border-color: black;
+    outline: none;
+  }
+}
+.control-label{
+  font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  display: block;
+  text-align: right;
+  font-family: $font-regular;
+}
+.form .control-label{
+  margin-top: 10px;
+}
+textarea.form-control{
+  min-height: 36px;
+  height: 36px;
+}
+a{
+  color:$link-color;
+  &:hover, &:focus{
+    text-decoration: none;
+    
+  }
+}
+// Whitespaces
+.mt-10{
+  margin-top: 10px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.mt-20{
+  margin-top: 20px !important;
+}
+.mt-30{
+  margin-top: 30px !important;
+}
+.mb-0{
+  margin-bottom: 0px !important;
+}
+.mb-10{
+  margin-bottom: 10px !important;
+}
+.mb-20{
+  margin-bottom: 20px !important;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.mb-25{
+  margin-bottom: 25px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+.mb-45{
+  margin-bottom: 45px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.mb-60{
+  margin-bottom: 60px;
+}
+.mb-80{
+  margin-bottom: 80px;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.pr-0{
+  padding-right: 0;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.mb-100{
+  margin-bottom: 100px;
+}
+.pr-10{
+  padding-right: 10px;
+}
+.pl-0{
+  padding-left: 0;
+}
+.ml-a{
+  margin-left: auto;
+  
+}
+.mr-a{
+  margin-right: auto;
+  
+}
